@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../assets/photo-image.jpg";
 
 const Hero = () => {
@@ -10,7 +9,7 @@ const Hero = () => {
         className="mx-auto mb-8 w-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105 "
       />
       <h1 className="text-4xl font-bold">
-        I'm{" "}
+        I&apos;m{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
           Kevin Selvais
         </span>
