@@ -33,7 +33,7 @@ const Hero = () => {
           className="bg-gradient-to-r from-yellow-400 to-red-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1hq3021SAVVIWAJL9PEwRFXZwKPk7Qrzv/view?usp=drive_link",
+              "https://drive.google.com/file/d/1FNDmo1im_uDaBDGqppXiZStQ5BNlvF7J/view?usp=sharing",
               "_blank"
             )
           }>
