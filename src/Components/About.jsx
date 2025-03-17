@@ -24,7 +24,7 @@ const About = () => {
           </div>
         </div>
         <div className="space-y-4 mt-20">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-10">
             <label htmlFor="htmlandcss" className="w-2/12">
               HTML & CSS
             </label>
@@ -32,31 +32,33 @@ const About = () => {
               <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-10/12"></div>
             </div>
           </div>
-          <div className="flex items-center">
-            <label htmlFor="nodejs" className="w-2/12">
+          <div className="flex items-center space-x-10">
+            <label htmlFor="Sass" className="w-2/12">
               Sass, Tailwind CSS
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
               <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
             </div>
           </div>
-          <div className="flex items-center">
-            <label htmlFor="javascript" className="w-2/12">
+          <div className="flex items-center space-x-10">
+            <label
+              htmlFor="javascript"
+              className="w-2/12 text-base sm:text-sm md:text-base">
               JavaScript
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
               <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
             </div>
           </div>
-          <div className="flex items-center">
-            <label htmlFor="nodejs" className="w-2/12">
+          <div className="flex items-center space-x-10">
+            <label htmlFor="TypeScript" className="w-2/12">
               TypeScript
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
               <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-5/12"></div>
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center space-x-10">
             <label htmlFor="reactjs" className="w-2/12">
               React JS
             </label>
@@ -64,7 +66,7 @@ const About = () => {
               <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-7/12"></div>
             </div>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center space-x-10">
             <label htmlFor="nodejs" className="w-2/12">
               Node JS + Express
             </label>
@@ -73,8 +75,8 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex items-center">
-            <label htmlFor="nodejs" className="w-2/12">
+          <div className="flex items-center space-x-10">
+            <label htmlFor="Mongo" className="w-2/12">
               MongoDB, MySQL
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
