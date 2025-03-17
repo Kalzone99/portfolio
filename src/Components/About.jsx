@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div className="space-y-4 mt-20">
           <div className="flex items-center space-x-10">
-            <label htmlFor="htmlandcss" className="w-2/12">
+            <label htmlFor="htmlandcss" className="w-2/12 sm:text-xs">
               HTML & CSS
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -33,17 +33,15 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="Sass" className="w-2/12">
-              Sass, Tailwind CSS
+            <label htmlFor="Sass" className="w-2/12 sm:text-xs">
+              Tailwind, Sass
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
               <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label
-              htmlFor="javascript"
-              className="w-2/12 text-base sm:text-sm md:text-base">
+            <label htmlFor="javascript" className="w-2/12 sm:text-xs">
               JavaScript
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -51,7 +49,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="TypeScript" className="w-2/12">
+            <label htmlFor="TypeScript" className="w-2/12 sm:text-xs">
               TypeScript
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -59,7 +57,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="reactjs" className="w-2/12">
+            <label htmlFor="reactjs" className="w-2/12 sm:text-xs">
               React JS
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -67,7 +65,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="nodejs" className="w-2/12">
+            <label htmlFor="nodejs" className="w-2/12 sm:text-xs">
               Node JS + Express
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -76,7 +74,7 @@ const About = () => {
           </div>
 
           <div className="flex items-center space-x-10">
-            <label htmlFor="Mongo" className="w-2/12">
+            <label htmlFor="Mongo" className="w-2/12 sm:text-xs">
               MongoDB, MySQL
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
