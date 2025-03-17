@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div className="space-y-4 mt-20">
           <div className="flex items-center space-x-10">
-            <label htmlFor="htmlandcss" className="w-2/12 sm:text-xs">
+            <label htmlFor="htmlandcss" className="w-2/12 text-xs md:text-lg">
               HTML & CSS
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -33,7 +33,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="Sass" className="w-2/12 sm:text-xs">
+            <label htmlFor="Sass" className="w-2/12 text-xs md:text-lg">
               Tailwind, Sass
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -41,7 +41,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="javascript" className="w-2/12 sm:text-xs">
+            <label htmlFor="javascript" className="w-2/12 text-xs md:text-lg">
               JavaScript
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -49,7 +49,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="TypeScript" className="w-2/12 sm:text-xs">
+            <label htmlFor="TypeScript" className="w-2/12 text-xs md:text-lg">
               TypeScript
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -57,7 +57,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="reactjs" className="w-2/12 sm:text-xs">
+            <label htmlFor="reactjs" className="w-2/12 text-xs md:text-lg">
               React JS
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -65,7 +65,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center space-x-10">
-            <label htmlFor="nodejs" className="w-2/12 sm:text-xs">
+            <label htmlFor="nodejs" className="w-2/12 text-xs md:text-lg">
               Node JS + Express
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">
@@ -74,7 +74,7 @@ const About = () => {
           </div>
 
           <div className="flex items-center space-x-10">
-            <label htmlFor="Mongo" className="w-2/12 sm:text-xs">
+            <label htmlFor="Mongo" className="w-2/12 text-xs md:text-lg">
               MongoDB, MySQL
             </label>
             <div className="grow bg-gray-800 rounded-full h-2.5">

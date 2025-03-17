@@ -4,16 +4,18 @@ const Navbar = () => {
       <div className="container py-2 flex justify-center md:justify-between items-center">
         <div className="text-2xl font-bold hidden md:inline">Kevin Selvais</div>
         <div className="space-x-6">
-          <a href="#home" className="hover:text-gray-400 sm:text-xs">
+          <a href="#home" className="hover:text-gray-400 text-xs md:text-lg">
             Home
           </a>
-          <a href="#about" className="hover:text-gray-400 sm:text-xs">
+          <a href="#about" className="hover:text-gray-400 text-xs md:text-lg">
             About
           </a>
-          <a href="#projects" className="hover:text-gray-400 sm:text-xs">
+          <a
+            href="#projects"
+            className="hover:text-gray-400 text-xs md:text-lg">
             Projects
           </a>
-          <a href="#contact" className="hover:text-gray-400 sm:text-xs">
+          <a href="#contact" className="hover:text-gray-400 text-xs md:text-lg">
             Contact
           </a>
         </div>

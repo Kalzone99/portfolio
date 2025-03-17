@@ -30,7 +30,7 @@ const Hero = () => {
           Contact Me
         </button>
         <button
-          className="bg-gradient-to-r from-yellow-400 to-red-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+          className="bg-gradient-to-r from-yellow-400 to-red-500 text-white  md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
           onClick={() =>
             window.open(
               "https://drive.google.com/file/d/1gmOgbphag9C9ndRZH3k70niNm1FwdfI2/view?usp=sharing",
